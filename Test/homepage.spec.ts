@@ -7,7 +7,7 @@ describe('Start app', () =>{
   const browserUtili = new BrowserUtilities;
   const checkUrl = 'angular';
     it('Should have the correct url', async () => {
-       // browser.get('');
+       // browser.get(''); testGIT
        // expect(browser.getCurrentUrl()).toEqual(browser.baseUrl + '/#/');
       //use the new created files
       await homepageGet.OpenBrowser('');
